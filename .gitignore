@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/out/production/Sensor/Main.class
+/.idea/misc.xml
+/.idea/modules.xml
+/out/production/Sensor/Observer.class
+/out/production/Sensor/Sensor.class
+/Sensor.iml
+/out/production/Sensor/SensorDisplay.class
+/.idea/uiDesigner.xml
+/.idea/workspace.xml

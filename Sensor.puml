@@ -1,0 +1,33 @@
+@startuml
+class SensorDisplay {
++ void update()
+}
+
+class Sensor {
+- List<Observer> observers
+- int temperature
+- int weight
+- String color
++ void setState(int)
++ String getColor()
++ int getWeight()
++ int getTemperature()
++ void addObserver(Observer)
+- void notifyObservers()
+}
+
+
+class Main {
++ {static} void main(String[])
+}
+
+abstract class Observer {
+# Sensor sensor
++ {abstract}void update()
+}
+
+
+
+
+Observer <|-- SensorDisplay
+@enduml
